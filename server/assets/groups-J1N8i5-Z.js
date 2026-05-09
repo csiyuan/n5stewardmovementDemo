@@ -1,0 +1,676 @@
+import { r as reactExports, W as jsxRuntimeExports } from "./server-Dq3LepHd.js";
+import { c as createLucideIcon, P as PageShell, b as PageHeader, g as groupImg, A as ArrowRight, e as Plus, d as conferenceImg, l as leadersImg, a as cn } from "./router-BABGM9sJ.js";
+import { p as proImg } from "./professional-fQHRIFXo.js";
+import { A as ArrowUpRight } from "./arrow-up-right-BRKhHh_d.js";
+import { U as Users } from "./users-D3JDja-u.js";
+import { B as BookOpen, a as Briefcase, C as Check } from "./check-C008BR-r.js";
+import { M as MapPin } from "./map-pin-DzCdM2SO.js";
+import "node:async_hooks";
+import "node:stream/web";
+import "node:stream";
+const __iconNode$4 = [
+  [
+    "path",
+    {
+      d: "M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",
+      key: "1gvzjb"
+    }
+  ],
+  ["path", { d: "M9 18h6", key: "x1upvd" }],
+  ["path", { d: "M10 22h4", key: "ceow96" }]
+];
+const Lightbulb = createLucideIcon("lightbulb", __iconNode$4);
+const __iconNode$3 = [
+  [
+    "path",
+    {
+      d: "M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719",
+      key: "1sd12s"
+    }
+  ]
+];
+const MessageCircle = createLucideIcon("message-circle", __iconNode$3);
+const __iconNode$2 = [["path", { d: "M5 12h14", key: "1ays0h" }]];
+const Minus = createLucideIcon("minus", __iconNode$2);
+const __iconNode$1 = [
+  ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
+  ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
+];
+const Search = createLucideIcon("search", __iconNode$1);
+const __iconNode = [
+  [
+    "path",
+    {
+      d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+      key: "oel41y"
+    }
+  ],
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+];
+const ShieldCheck = createLucideIcon("shield-check", __iconNode);
+const sections = [{
+  id: "individuals",
+  label: "Individuals, Families & Groups"
+}, {
+  id: "faith-leaders",
+  label: "Faith-Based Leaders"
+}, {
+  id: "finance-professionals",
+  label: "Finance-Based Professional"
+}, {
+  id: "find-professional",
+  label: "Find A Professional"
+}];
+const individualsAccordion = [{
+  title: "Why We Exist",
+  body: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "With over 2,300 verses on money, the Bible provides one of the most comprehensive frameworks for financial stewardship—yet it is often overlooked." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "The N5 Stewardship Movement bridges this gap by equipping believers with practical, biblical tools to steward resources with purpose and impact." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Whether you’re starting out or seasoned in life, join a growing movement committed to transforming lives, strengthening families, and advancing God’s Kingdom through faithful stewardship." })
+  ] })
+}, {
+  title: "What We're Based On",
+  body: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "The N5 Stewardship Movement draws inspiration from Nehemiah 5, where financial injustice disrupted an entire society—yet the solutions were already within reach. What was needed were people who understood the responsibility of stewardship and were willing to bridge the gap between need and resources." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "It is a powerful reminder: how we manage money can either build people up—or quietly oppress them." })
+  ] })
+}, {
+  title: "How We Equip",
+  body: "Through social media, courses, conferences, and multi-platform resources, N5 brings biblical financial stewardship to life—making it accessible, practical, and purpose-driven, not just technical."
+}, {
+  title: "Our Goal",
+  body: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "At its core, N5 creates space for honest and practical conversations about money—how it shapes our identity, influences our decisions, and impacts our relationships and divine purpose." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Above all, it is about knowing God, understanding ourselves, and stewarding our resources in a way that honors Him." })
+  ] })
+}];
+const believersExpect = [{
+  icon: Users,
+  title: "Meeting Place",
+  desc: "N5 creates safe spaces for believers to meet like-minded Christians, learn, reflect and discuss money matters together in community. Hebrews 10:24-25"
+}, {
+  icon: MessageCircle,
+  title: "Real Issues Discussed",
+  desc: "Real-world issues discussed with a biblical worldview allows individuals, couples, and small groups to align themselves to what the Word has made available. Hebrews 4:12"
+}, {
+  icon: Lightbulb,
+  title: "Values Challenged",
+  desc: "The transformative power of the Word guides each person to renew minds so that we do not continue to conform to the patterns of this world — offering counterculture thinking. Romans 12:2"
+}, {
+  icon: BookOpen,
+  title: "Industry Resources",
+  desc: "Tools, blueprints, and templates are made available together with professional expertise to help believers make wiser decisions and become better stewards. 1 Corinthians 4:2"
+}];
+const faithAccordion = [{
+  title: "Why N5? Issues Beneath The Surface",
+  body: "N5 Stewards Asia was born out of a growing concern: that financial struggles quietly shape the lives, relationships and well being of many within the Church. Debt, loss of income, financial pressure and lifestyle expectations, wealth transfer to the next generation, are not just economic issues they are pastoral realities that affect families, marriages and communities."
+}, {
+  title: "Why the Church Matters in This Conversation",
+  body: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Faith leaders often encounter the real-life effects of financial pressure long before anyone else. Conversations about provision, stress, generosity, family tension, and future uncertainty frequently surface in pastoral care." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "N5 recognises that financial stewardship is not merely a technical subject—it is a discipleship issue. How people handle money shapes their priorities, relationships, and long-term direction." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "That is why this movement is intentionally focused on equipping the Church first—creating space for honest, practical conversations about money that move beyond theory and address real life." })
+  ] })
+}, {
+  title: "Who Is It For?",
+  body: "Since its beginnings in 2021, the movement has grown into a grassroots network of believers, churches and marketplace professionals committed to learning and living out Scripture-rooted principles around money, debt, wealth and legacy."
+}, {
+  title: "What Is The Biblical Foundation Behind N5?",
+  body: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "The N5 movement is rooted in Nehemiah 5 a moment when the rebuilding of Jerusalem came to a halt because of debt, inequality and financial oppression among God's people. The crisis was not external; it was internal. Families were mortgaging their land, borrowing to survive, and even losing their children to debt slavery." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Yet, the solutions were readily available within those very walls. Resources could be stewarded in such a way that the kingdom works could continue and advance!" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "That passage became the inspiration for the N5 Stewardship Movement. Its central message is simple: when financial hardship and injustice exist within a community, the work of rebuilding lives can stall. N5 seeks to help restore a culture of stewardship so that individuals, families and churches can move forward together." })
+  ] })
+}, {
+  title: "How Do We Equip?",
+  body: "Through gatherings, teaching sessions and collaborative events, N5 focuses on topics such as debt, generosity, legacy, financial decision-making and healthy communication about money within families."
+}];
+const faithPartnership = ["Rediscover values-driven stewardship and responsibility in everyday life", "Equip individuals and families with practical understanding around debt, planning and legacy", "Encourage conversations that strengthen financial resilience within the church body", "Build connections between spiritual formation and real-world financial decisions"];
+const financeAccordion = [{
+  title: "Why We Exist",
+  body: "N5 Stewards Asia exists to raise a community of faith-aligned, competent, ethically grounded and kingdom-focused finance-based professionals who see their work as more than transactions and compensations."
+}, {
+  title: "What We're Based On",
+  body: "The Movement draws inspiration from Nehemiah 5, where financial injustice disrupted an entire society — a reminder that how money is managed can either build people up or quietly oppress them."
+}, {
+  title: "How We Equip",
+  body: "Through conferences, discipleship, training tracks and practitioner gatherings, N5 creates space for real conversations around biblical worldview on money, values and responsibility — not just technical planning."
+}, {
+  title: "Our Goal",
+  body: "The aim is to help finance-based professionals develop a stewardship mindset: one that integrates sound biblical financial principles with long-term impact on families, communities and nations."
+}];
+const financeExpect = [{
+  icon: Users,
+  title: "Meeting Place",
+  desc: "A convening point for financial planners who believe their role carries influence beyond plans and portfolios."
+}, {
+  icon: Briefcase,
+  title: "Marketplace Community",
+  desc: "The community brings together practitioners, industry leaders and marketplace voices — bridging people and workplaces."
+}, {
+  icon: MessageCircle,
+  title: "Real Issues Discussed",
+  desc: "We explore real-world dilemmas such as debt, inequality, stewardship, legacy planning, and ethical practices."
+}, {
+  icon: ShieldCheck,
+  title: "Industry Expertise",
+  desc: "Real-world practitioners with experience in banking, finance, insurance, and advisory work ensure conversations remain grounded."
+}];
+const financePrograms = [{
+  title: "First Things First",
+  items: ["Bi-weekly online meetings", "Sharing & applying the Word", "Breakout discussions and prayer", "Starting the work week together"]
+}, {
+  title: "Bi-Weekly / Monthly Ekklesia",
+  items: ["Bi-weekly / monthly in company", "Mutual encouragement & edification", "Sharing in a safe space", "Praying for each other, company, industry"]
+}, {
+  title: "In-Person Meetings",
+  items: ["Quarterly industry-level event / retreat", "Special industry-related topics", "Connecting with fellow Christian financial professionals", "Praying corporately as an industry"]
+}, {
+  title: "Annual Conference",
+  items: ["Annual event", "Wide-ranging personal & industry-related topics", "Serving fellow financial professionals and Christians", "Aligning corporate destiny"]
+}, {
+  title: "Training & Certification",
+  items: ["Ongoing training and certification", "Equipping professionals to serve in biblical financial stewardship", "Learning and growing with fellow Christian financial professionals"]
+}];
+const specialties = [{
+  label: "Financial Counselling",
+  img: proImg
+}, {
+  label: "Insurance Planning",
+  img: proImg
+}, {
+  label: "Investment Planning",
+  img: proImg
+}, {
+  label: "Faith-Based Investing",
+  img: proImg
+}, {
+  label: "Estate Planning",
+  img: proImg
+}, {
+  label: "Legacy Planning",
+  img: proImg
+}, {
+  label: "Financial Education",
+  img: proImg
+}, {
+  label: "Financial Coaching",
+  img: proImg
+}, {
+  label: "Money Management",
+  img: proImg
+}, {
+  label: "Retirement Planning",
+  img: proImg
+}];
+const featuredProfessionals = [{
+  name: "John Lim CFP CFSC",
+  role: "Lead Stewardship Coach",
+  image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&auto=format&fit=crop",
+  bio: "I invested the first 12 years of my career in financial services immediately after graduation. I...",
+  specialties: ["Estate Planning", "Faith-Based"],
+  address: "123 Shenton Way, #12-00 Kingdom Building, Singapore 123456",
+  phone: "9123 4567",
+  email: "godlyman@kingdomcome.com",
+  website: "kingdomcome.com",
+  canBook: true
+}, {
+  name: "Sarah Lim",
+  role: "Investment Strategist",
+  image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop",
+  bio: "Specializing in faith-based investing and wealth alignment, Sarah helps clients steward their capital.",
+  specialties: ["Investing", "Faith-Based"],
+  address: "88 Market Street, #05-01 CapitaSpring, Singapore 048948",
+  phone: "9876 5432",
+  email: "sarah.lim@n5stewards.com",
+  website: "sarahsteward.com",
+  canBook: true
+}, {
+  name: "David Chen",
+  role: "Debt Freedom Expert",
+  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
+  bio: "Practical guidance for individuals seeking to break free from debt and establish a solid foundation.",
+  specialties: ["Debt Mgmt", "Counselling"],
+  address: "10 Anson Road, #22-02 International Plaza, Singapore 079903",
+  phone: "9234 5678",
+  email: "david.chen@freedom.sg",
+  website: "chencoaching.com",
+  canBook: false
+}, {
+  name: "Esther Low",
+  role: "Retirement Advisor",
+  image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop",
+  bio: "Guiding believers through retirement planning with a focus on long-term stewardship and purpose.",
+  specialties: ["Retirement", "Education"],
+  address: "15 Beach Road, #03-05 Singapore 189677",
+  phone: "9345 6789",
+  email: "esther.low@goldenyears.sg",
+  website: "estherlow.com",
+  canBook: true
+}, {
+  name: "Michael Wong",
+  role: "Insurance Specialist",
+  image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&auto=format&fit=crop",
+  bio: "Expert advice on risk management and protection aligned with biblical principles of stewardship.",
+  specialties: ["Insurance", "Protection"],
+  address: "6 Temasek Boulevard, #12-01 Suntec Tower 4, Singapore 038986",
+  phone: "9456 7890",
+  email: "michael.wong@stewardship.sg",
+  website: "wonginsurance.com",
+  canBook: true
+}, {
+  name: "Grace Tan",
+  role: "Money Management Coach",
+  image: "https://images.unsplash.com/photo-1567532939604-b6c5b0adcc2c?w=800&auto=format&fit=crop",
+  bio: "Helping young families build strong financial habits and align their spending with their values.",
+  specialties: ["Budgeting", "Education"],
+  address: "1 Raffles Place, #44-01 One Raffles Place, Singapore 048616",
+  phone: "9567 8901",
+  email: "grace.tan@values.sg",
+  website: "gracetan.com",
+  canBook: false
+}];
+function SectionNav() {
+  const [activeSection, setActiveSection] = reactExports.useState("");
+  reactExports.useEffect(() => {
+    const NAV_OFFSET = 160;
+    const getActiveSection = () => {
+      let current = "";
+      for (const s of sections) {
+        const el = document.getElementById(s.id);
+        if (!el) continue;
+        const rect = el.getBoundingClientRect();
+        if (rect.top <= NAV_OFFSET) {
+          current = s.id;
+        }
+      }
+      setActiveSection(current);
+    };
+    window.addEventListener("scroll", getActiveSection, {
+      passive: true
+    });
+    getActiveSection();
+    return () => window.removeEventListener("scroll", getActiveSection);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "sticky top-20 z-30 bg-background/98 backdrop-blur-md border-b border-border shadow-sm", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "flex gap-2 overflow-x-auto py-5", "aria-label": "Groups page sections", children: sections.map((s) => {
+    const isActive = activeSection === s.id;
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: `#${s.id}`, onClick: (e) => {
+      e.preventDefault();
+      const el = document.getElementById(s.id);
+      if (el) {
+        const top = el.getBoundingClientRect().top + window.scrollY - 140;
+        window.scrollTo({
+          top,
+          behavior: "smooth"
+        });
+        setActiveSection(s.id);
+      }
+    }, className: `group relative flex-shrink-0 px-6 py-4 text-xs font-semibold tracking-[0.12em] uppercase transition-all duration-300 whitespace-nowrap ${isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`, children: [
+      s.label,
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `absolute bottom-2 left-6 right-6 h-[2.5px] bg-gold rounded-full transition-all duration-300 origin-left ${isActive ? "scale-x-100 opacity-100" : "scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100"}` })
+    ] }, s.id);
+  }) }) }) });
+}
+function AccordionList({
+  items,
+  groupId = "accordion"
+}) {
+  const [openIndex, setOpenIndex] = reactExports.useState(null);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "border-y border-ink/15", children: items.map((item, i) => {
+    const isOpen = openIndex === i;
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-b border-ink/15 last:border-b-0", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { onClick: () => setOpenIndex(isOpen ? null : i), className: "w-full flex items-center justify-between p-6 md:p-8 text-left hover:bg-secondary transition-colors group", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "serif-display text-lg md:text-xl", children: item.title }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `text-gold text-2xl leading-none transition-transform duration-300 ${isOpen ? "rotate-45" : ""}`, children: "+" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `grid transition-all duration-300 ease-in-out ${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-6 md:px-8 pb-8 pt-0 text-ink/80 leading-relaxed max-w-3xl font-medium", children: item.body }) }) })
+    ] }, item.title);
+  }) });
+}
+function FeatureGrid({
+  items,
+  cardBg = "bg-background"
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-6", children: items.map((item, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: cn("group/card border border-border p-8 shadow-sm hover:border-gold/30 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1", cardBg), children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-12 w-12 rounded-full bg-gold/10 flex items-center justify-center text-gold-dark mb-6 group-hover/card:scale-110 transition-transform duration-500", children: /* @__PURE__ */ jsxRuntimeExports.jsx(item.icon, { className: "h-6 w-6", strokeWidth: 2 }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "serif-display text-xl mb-3 text-ink", children: item.title }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-ink/70 leading-relaxed font-medium", children: item.desc })
+  ] }, idx)) });
+}
+function GroupsPage() {
+  const [openIndividuals, setOpenIndividuals] = reactExports.useState(-1);
+  const [openFaith, setOpenFaith] = reactExports.useState(-1);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(PageShell, { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(PageHeader, { eyebrow: "Groups", title: "Stewardship is best lived together.", intro: "Whether you're an individual, family, faith leader or finance professional — find your place in the N5 movement and walk the stewardship journey in community." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(SectionNav, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "individuals", className: "bg-white scroll-mt-28 border-t border-ink/15", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative bg-ink text-ivory py-24 overflow-hidden border-b border-gold/20", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 opacity-10", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: groupImg, alt: "", className: "w-full h-full object-cover" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-12 gap-12 items-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-7", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4 uppercase tracking-[0.3em]", children: "Part 01 / Individuals" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "serif-display text-4xl md:text-6xl lg:text-7xl mb-8 leading-[1.05]", children: [
+              "Individuals, Families ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "& Groups." })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-ivory/80 max-w-xl leading-relaxed font-light", children: "Align your faith with finance. Learn biblical wisdom to steward your resources with purpose and honor God." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://n5stewardsasia.squarespace.com/church-community", target: "_blank", rel: "noopener noreferrer", className: "inline-flex items-center gap-3 rounded-full bg-gold text-ink px-8 py-4 text-sm font-bold tracking-widest uppercase hover:bg-ivory transition-all duration-300", children: [
+              "Learn more ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowUpRight, { className: "h-5 w-5" })
+            ] }) })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-5 hidden md:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "aspect-[4/5] bg-gold/5 border border-gold/20 rounded-sm relative p-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: groupImg, alt: "Groups", className: "w-full h-full object-cover rounded-sm shadow-2xl" }) }) })
+        ] }) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-24 bg-white", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-12 gap-20 items-start", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-4 space-y-10 lg:sticky lg:top-40", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl lg:text-6xl text-ink leading-[1.1]", children: [
+              "Why partner ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "with N5." })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ink/60 leading-relaxed font-light", children: "Join a movement committed to bridging the gap between biblical truth and financial stewardship." })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-secondary/50 border border-gold/10 p-10 rounded-sm space-y-6", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "serif-display text-2xl text-ink", children: "Ready to start?" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-ink/60 leading-relaxed", children: "Begin your journey with our foundational stewardship course today." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://n5stewardsasia.squarespace.com/church-community", target: "_blank", rel: "noopener noreferrer", className: "inline-flex items-center gap-2 text-gold font-bold uppercase tracking-widest text-[10px] group", children: [
+              "Get Started ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "h-4 w-4 transition-transform group-hover:translate-x-1" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "lg:col-span-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: individualsAccordion.map((item, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "group bg-white border border-ink/5 hover:border-gold/20 transition-all duration-500 rounded-sm overflow-hidden", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { onClick: () => setOpenIndividuals(openIndividuals === idx ? -1 : idx), className: "flex items-center justify-between w-full p-8 text-left", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-8", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "serif-display text-xl text-gold/30 font-bold group-hover:text-gold transition-colors duration-500", children: [
+                "0",
+                idx + 1
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "serif-display text-2xl text-ink font-bold", children: item.title })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `h-8 w-8 rounded-full bg-secondary flex items-center justify-center transition-transform duration-500 ${openIndividuals === idx ? "rotate-180 bg-gold" : ""}`, children: openIndividuals === idx ? /* @__PURE__ */ jsxRuntimeExports.jsx(Minus, { className: "h-4 w-4 text-ink" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "h-4 w-4 text-ink/40" }) })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `transition-all duration-700 ease-in-out ${openIndividuals === idx ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-8 pb-10 pl-[5.5rem] text-lg text-ink/70 leading-relaxed font-light", children: item.body }) })
+        ] }, idx)) }) })
+      ] }) }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-24 bg-white border-t border-ink/15", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-x", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4", children: "Impact" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl lg:text-6xl text-ink", children: [
+              "What Believers ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Can Expect." })
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-md", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ink/60 text-sm leading-relaxed border-l border-gold pl-6", children: "Join a community where biblical financial stewardship is brought to life through practical, purpose-driven resources and real conversations." }) })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(FeatureGrid, { items: believersExpect, cardBg: "bg-secondary" })
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-24 bg-white", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-12 gap-16 items-center", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-6 relative h-[500px] md:h-[600px] hidden md:block", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gold/10 rounded-full blur-3xl" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: conferenceImg, alt: "Journey together", className: "absolute top-0 right-0 w-[70%] h-[400px] object-cover rounded-sm shadow-2xl z-10" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: groupImg, alt: "Community discussion", className: "absolute bottom-10 left-0 w-[55%] h-[280px] object-cover rounded-sm shadow-xl z-20 border-8 border-secondary" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: leadersImg, alt: "Leadership", className: "absolute bottom-0 right-10 w-[40%] h-[220px] object-cover rounded-sm shadow-lg z-30 border-8 border-secondary" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:hidden relative", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -top-4 -left-4 w-24 h-24 bg-gold/10 rounded-full blur-2xl" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: conferenceImg, alt: "Journey together", className: "relative z-10 w-full rounded-sm shadow-2xl" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-5 md:col-start-8 space-y-8", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4 uppercase", children: "The Heart of N5" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl leading-[1.1] text-ink", children: [
+              "Why Journey ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+              "With Us"
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-ink/80 text-lg font-medium leading-relaxed", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Biblical financial stewardship is one of the most needed areas of discipleship in the Church today — yet it is rarely taught. Without accountability, believers often struggle to live out what the Word teaches." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Learning within a community is essential — where minds are renewed, questions are answered, and wisdom is shared — so that every believer may be equipped for every good work (2 Timothy 3:17)." })
+          ] })
+        ] })
+      ] }) }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "faith-leaders", className: "bg-white scroll-mt-28 border-t border-ink/15", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative bg-ink text-ivory overflow-hidden", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: leadersImg, alt: "Faith-based leaders", className: "absolute inset-0 w-full h-full object-cover opacity-30" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative container-x py-28", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-3 uppercase", children: "Part 02 / Leaders" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "serif-display text-4xl md:text-5xl lg:text-7xl mb-6", children: [
+            "Faith-Based ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Leaders." })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/70 max-w-xl leading-relaxed", children: "What if your community's greatest discipleship gap is financial stewardship? For faith leaders, partnering with N5 is about addressing a real and growing need — helping people navigate money with wisdom, responsibility and purpose." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://n5stewardsasia.squarespace.com/faith-based-leaders", target: "_blank", rel: "noopener noreferrer", className: "mt-8 inline-flex items-center gap-2 rounded-full bg-gold text-ink px-7 py-3.5 text-sm font-medium tracking-wide hover:bg-ivory transition-colors", children: [
+            "Learn more ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowUpRight, { className: "h-4 w-4" })
+          ] })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-12 gap-12 items-start", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-5", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 mb-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gold-rule" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow", children: "Partnering with N5" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "serif-display text-3xl md:text-4xl", children: "A Call to Prepare the Church" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-7", children: /* @__PURE__ */ jsxRuntimeExports.jsx(AccordionList, { items: faithAccordion }) })
+      ] }) }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-24 pb-24 bg-white border-t border-ink/15", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-x", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4", children: "Engagement" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl text-ink", children: [
+            "What Partnership ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Looks Like." })
+          ] })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-12 gap-16 items-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-6 space-y-10", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid gap-8", children: faithPartnership.map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-6 group/item items-start p-6 rounded-sm bg-secondary border border-border/50 hover:border-gold/30 transition-all duration-300", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "serif-display text-3xl text-gold-dark/40 group-hover/item:text-gold-dark transition-colors duration-300", children: [
+              "0",
+              i + 1
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-ink/80 leading-relaxed group-hover/item:text-ink transition-colors duration-300 font-medium", children: item })
+          ] }, i)) }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-5 md:col-start-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative p-6 border border-gold/20 rounded-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -inset-1 bg-gold/10 blur-sm" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: conferenceImg, alt: "Partnership", className: "relative z-10 w-full rounded-sm" })
+          ] }) })
+        ] })
+      ] }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "finance-professionals", className: "bg-white scroll-mt-28 border-t border-ink/15", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative bg-ink text-ivory overflow-hidden border-b border-gold/20", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: proImg, alt: "Finance professionals", className: "absolute inset-0 w-full h-full object-cover opacity-20 grayscale brightness-75" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative container-x py-24", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4 uppercase tracking-[0.3em]", children: "Part 03 / Professionals" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "serif-display text-4xl md:text-5xl lg:text-7xl mb-8 leading-[1.05]", children: [
+            "Finance-Based ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Professional." })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-ivory/80 max-w-xl leading-relaxed font-light", children: "For finance professionals, N5 is a community that bridges your professional expertise with biblical stewardship, helping you guide clients with integrity and eternal perspective." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://n5stewardsasia.squarespace.com/marketplace-leaders-1", target: "_blank", rel: "noopener noreferrer", className: "inline-flex items-center gap-3 rounded-full bg-gold text-ink px-8 py-4 text-sm font-bold tracking-widest uppercase hover:bg-ivory transition-all duration-300", children: [
+            "Learn more ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowUpRight, { className: "h-5 w-5" })
+          ] }) })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-12 gap-12 items-start", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-5 lg:sticky lg:top-40", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 mb-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gold-rule" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow uppercase tracking-[0.2em] font-bold text-ink/60", children: "The N5 Difference" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl text-ink leading-tight", children: [
+            "Beyond ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Transactions." })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-7", children: /* @__PURE__ */ jsxRuntimeExports.jsx(AccordionList, { items: financeAccordion }) })
+      ] }) }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-24 pb-24 bg-white border-t border-ink/15", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-x", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4", children: "Support" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl lg:text-6xl text-ink", children: [
+            "What N5 Brings ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "To Professionals." })
+          ] })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(FeatureGrid, { items: financeExpect, cardBg: "bg-secondary" })
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-ink text-ivory py-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-x grid md:grid-cols-12 gap-10 items-center", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: conferenceImg, alt: "The bigger vision", className: "w-full opacity-80" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-7 md:col-start-6 space-y-5", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold", children: "The bigger vision" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "serif-display text-2xl md:text-3xl text-ivory leading-relaxed", children: "N5 Stewards Asia is building a cross-sector movement where believers, faith-based leaders and finance-based professionals work side by side to strengthen people from the ground up." })
+        ] })
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-24 pb-24 bg-white border-t border-ink/15", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-x", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4", children: "Ecosystem" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl lg:text-6xl text-ink", children: [
+            "How We ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Gather Together." })
+          ] })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8", children: financePrograms.map((prog, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "group/prog bg-secondary border border-border p-10 shadow-sm hover:border-gold/30 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mb-8", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-4xl serif-display text-gold-dark/30 group-hover/prog:text-gold-dark/60 transition-colors", children: [
+              "0",
+              i + 1
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Briefcase, { className: "h-6 w-6 text-gold-dark/60 group-hover/prog:text-gold-dark transition-colors" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "serif-display text-2xl mb-6 text-ink font-bold", children: prog.title }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-4", children: prog.items.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-3 text-sm text-ink leading-relaxed group-hover/prog:text-ink transition-colors font-semibold", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Check, { className: "h-4 w-4 text-gold-dark shrink-0 mt-0.5 opacity-60 group-hover/prog:opacity-100 transition-opacity" }),
+            item
+          ] }, item)) })
+        ] }, prog.title)) })
+      ] }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "find-professional", className: "bg-white scroll-mt-28 border-t border-ink/15", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative bg-ink text-ivory py-24 overflow-hidden border-b border-gold/20", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 opacity-10", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: specialties[0].img, alt: "", className: "w-full h-full object-cover grayscale" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-20 container-x", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-12 gap-12 items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-7", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4 uppercase tracking-[0.3em]", children: "Part 04 / Directory" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "serif-display text-4xl md:text-6xl lg:text-7xl mb-8 leading-[1.05]", children: [
+            "Find Your ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic text-gold", children: "Stewardship Guide." })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-ivory/80 max-w-xl leading-relaxed font-light", children: "Search our curated directory of N5-certified professionals who combine financial expertise with biblical integrity." })
+        ] }) }) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-24", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-x", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-12", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-10", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "eyebrow text-gold block mb-4 uppercase", children: "Featured" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "serif-display text-4xl md:text-5xl", children: [
+              "Meet Our ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic", children: "Mentors." })
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row items-stretch gap-4 w-full mb-12", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative group flex-grow lg:max-w-md", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Search, { className: "absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-ink/30" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("input", { type: "text", placeholder: "Search by name or description...", className: "w-full h-12 pl-10 pr-4 bg-background border border-border rounded-sm text-sm font-bold focus:border-gold outline-none transition-all shadow-sm" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative w-full md:w-64", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("select", { className: "w-full h-12 appearance-none px-4 bg-background border border-border rounded-sm text-sm font-bold text-ink/60 focus:border-gold outline-none cursor-pointer shadow-sm", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Filter by specialty..." }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Estate Planning" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Faith-Based Investing" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Financial Coaching" })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none", children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { className: "h-4 w-4 text-gold-dark", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2", d: "M19 9l-7 7-7-7" }) }) })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between gap-4 bg-background border border-border h-12 px-6 rounded-sm shadow-sm md:ml-auto shrink-0", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm font-bold text-ink/60 whitespace-nowrap", children: "Can book a call" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-5 bg-border rounded-full relative cursor-pointer hover:bg-gold/20 transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute left-1 top-1 w-3 h-3 bg-ink rounded-full" }) })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8", children: featuredProfessionals.map((pro) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "group flex flex-col bg-background border border-ink/15 shadow-sm hover:shadow-2xl hover:border-gold/30 transition-all duration-500 overflow-hidden", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "aspect-square relative overflow-hidden bg-secondary", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: pro.image, alt: pro.name, className: "w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" }),
+            pro.canBook && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-4 right-4 bg-gold text-ink text-[8px] font-bold uppercase tracking-widest px-2 py-1 rounded-sm shadow-lg z-10 animate-pulse", children: "Available" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-ink/10 group-hover:bg-transparent transition-colors duration-500" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 flex-grow flex flex-col", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-4", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "serif-display text-xl text-ink mb-1 group-hover:text-gold transition-colors", children: pro.name }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1.5", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-[9px] font-bold uppercase tracking-[0.2em] text-gold-dark", children: pro.role }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-1.5 text-[9px] text-ink/40 font-medium leading-relaxed", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "h-3 w-3 text-gold-dark/30 mt-0.5 shrink-0" }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: pro.address })
+                ] })
+              ] })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-ink/70 leading-relaxed mb-6 italic line-clamp-2", children: [
+              '"',
+              pro.bio,
+              '"'
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-3 mb-6 border-t border-ink/15 pt-6", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[8px] font-bold uppercase tracking-widest text-ink/30", children: "Phone" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-[10px] text-ink/60 font-semibold", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-3.5 h-3.5 text-gold-dark/40", children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { fill: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" }) }) }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: pro.phone })
+                ] })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[8px] font-bold uppercase tracking-widest text-ink/30", children: "Email" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-[10px] text-ink/60 font-semibold truncate", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-3.5 h-3.5 text-gold-dark/40", children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { fill: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" }) }) }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "truncate", children: pro.email })
+                ] })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[8px] font-bold uppercase tracking-widest text-ink/30", children: "Website" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-[10px] text-ink/60 font-semibold truncate", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-3.5 h-3.5 text-gold-dark/40", children: /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { fill: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 0 1 5.08 16zm2.95-8H5.08a7.987 7.987 0 0 1 3.33-3.56A15.65 15.65 0 0 0 7.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.34.16-2h4.68c.09.66.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-3.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z" }) }) }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "truncate", children: pro.website })
+                ] })
+              ] })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-auto pt-6 border-t border-ink/15", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-3 mb-6", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[8px] font-bold uppercase tracking-widest text-ink/30", children: "Specialties" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-1.5", children: pro.specialties.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-2 py-0.5 bg-secondary text-[8px] font-bold uppercase tracking-wider text-ink/60 border border-border/50", children: s }, s)) })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { className: "w-full bg-ink text-ivory py-4 rounded-sm text-[10px] font-bold tracking-[0.2em] uppercase flex items-center justify-center gap-2 hover:bg-gold hover:text-ink transition-all group/btn", children: [
+                "Contact Me",
+                /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "h-3 w-3 group-hover/btn:translate-x-1 transition-transform" })
+              ] })
+            ] })
+          ] })
+        ] }, pro.name)) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-16 text-center border-t border-ink/15 pt-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://n5stewardsasia.squarespace.com/find-a-professional", target: "_blank", rel: "noopener noreferrer", className: "group inline-flex items-center gap-4 text-xs font-bold tracking-widest uppercase hover:text-gold transition-all duration-300", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-10 w-10 rounded-full border border-border flex items-center justify-center group-hover:border-gold group-hover:bg-gold/5 transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowUpRight, { className: "h-4 w-4" }) }),
+          "View the full directory"
+        ] }) })
+      ] }) })
+    ] })
+  ] });
+}
+export {
+  GroupsPage as component
+};
