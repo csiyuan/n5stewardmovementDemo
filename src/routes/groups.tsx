@@ -45,6 +45,8 @@ export const Route = createFileRoute("/groups")({
 const sections = [
   { id: "individuals", label: "Individuals, Families & Groups" },
   { id: "faith-leaders", label: "Faith-Based Leaders" },
+  { id: "finance-professionals", label: "Finance-Based Professional" },
+  { id: "find-professional", label: "Find A Professional" },
 ];
 
 /* ─── Tab 1: Individuals data ──────────────────────────── */
@@ -639,9 +641,46 @@ function GroupsPage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-                <div className="md:col-span-7">
-                  <AccordionList items={financeAccordion} />
+          3. FINANCE PROFESSIONALS
+      ══════════════════════════════════════════════════════ */}
+      <section id="finance-professionals" className="bg-white scroll-mt-28 border-t border-ink/15">
+
+        {/* Hero */}
+        <div className="relative bg-ink text-ivory overflow-hidden border-b border-gold/20">
+          <img src={proImg} alt="Finance professionals" className="absolute inset-0 w-full h-full object-cover opacity-20 grayscale brightness-75" />
+          <div className="relative container-x py-24">
+            <span className="eyebrow text-gold block mb-4 uppercase tracking-[0.3em]">Part 03 / Professionals</span>
+            <h2 className="serif-display text-4xl md:text-5xl lg:text-7xl mb-8 leading-[1.05]">
+              Finance-Based <br />
+              <span className="italic text-gold">Professional.</span>
+            </h2>
+            <p className="text-xl text-ivory/80 max-w-xl leading-relaxed font-light">
+              For finance professionals, N5 is a community that bridges your professional expertise with biblical stewardship, helping you guide clients with integrity and eternal perspective.
+            </p>
+            <div className="mt-10">
+              <a href="https://n5stewardsasia.squarespace.com/marketplace-leaders-1" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 rounded-full bg-gold text-ink px-8 py-4 text-sm font-bold tracking-widest uppercase hover:bg-ivory transition-all duration-300">
+                Learn more <ArrowUpRight className="h-5 w-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Accordion */}
+        <div className="py-24">
+          <div className="container-x">
+            <div className="grid md:grid-cols-12 gap-12 items-start">
+              <div className="md:col-span-5 lg:sticky lg:top-40">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="gold-rule" />
+                  <span className="eyebrow uppercase tracking-[0.2em] font-bold text-ink/60">The N5 Difference</span>
                 </div>
+                <h3 className="serif-display text-4xl md:text-5xl text-ink leading-tight">
+                  Beyond <br />
+                  <span className="italic text-gold">Transactions.</span>
+                </h3>
+              </div>
+              <div className="md:col-span-7">
+                <AccordionList items={financeAccordion} />
               </div>
             </div>
           </div>

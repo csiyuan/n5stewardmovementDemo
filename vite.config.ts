@@ -16,5 +16,4 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   base: '/n5stewardmovementDemo/', // Must match your repo name exactly
-  plugins: [react()], // or whatever plugins you have
 });

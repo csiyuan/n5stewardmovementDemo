@@ -144,14 +144,15 @@ function AboutPage() {
     setOpenAccordion(isOpening ? idx : null);
     
     if (isOpening) {
-      // Longer delay to ensure layout shifts (collapsing other accordion) are accounted for
       setTimeout(() => {
-        const element = accordionRefs.current[idx];
+        const element = document.getElementById(`accordion-${idx}`);
         if (element) {
-          // Use scrollIntoView with scroll-margin-top for cleaner logic
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
+          // Calculate precise position accounting for sticky headers
+          // The - 320 shifts the view down so the title sits nicely below headers
+          const top = element.getBoundingClientRect().top + window.scrollY - 320;
+          window.scrollTo({ top, behavior: "smooth" });
         }
-      }, 500);
+      }, 350);
     }
   };
 
@@ -195,6 +196,91 @@ function AboutPage() {
                   <div className="absolute inset-0 border border-gold/10 -m-4 rounded-sm -z-10 pointer-events-none" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Our Story & Missions Content */}
+        <div className="py-24 bg-white border-t border-ink/10">
+          <div className="container-x">
+            <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+              
+              {/* Left Side: Image */}
+              <div className="lg:col-span-5 relative hidden lg:block">
+                <div className="sticky top-32">
+                  <img 
+                    src={leaderImg} 
+                    alt="Founder Bernard Lim" 
+                    className="w-full h-auto object-cover rounded-sm shadow-xl aspect-[3/4]" 
+                  />
+                </div>
+              </div>
+
+              {/* Right Side: Content */}
+              <div className="lg:col-span-7 flex flex-col space-y-16">
+                
+                {/* Mobile Image (Visible only on small screens) */}
+                <div className="lg:hidden relative">
+                  <img 
+                    src={leaderImg} 
+                    alt="Founder Bernard Lim" 
+                    className="w-full h-auto object-cover rounded-sm shadow-xl aspect-[4/5]" 
+                  />
+                </div>
+
+                {/* Our Story Text */}
+                <div className="space-y-8 pb-4">
+                  <div>
+                    <span className="eyebrow text-gold block mb-6 uppercase tracking-[0.2em] font-bold text-sm">
+                      THE HEART OF N5
+                    </span>
+                    <h3 className="serif-display text-5xl md:text-6xl lg:text-7xl text-ink leading-[1.1] font-bold">
+                      Our Story
+                    </h3>
+                  </div>
+                  <p className="text-xl md:text-2xl text-ink/70 leading-relaxed font-light">
+                    The <strong className="font-semibold text-ink">N5 Stewardship Movement</strong> was birthed on <strong className="font-semibold text-ink">7 July 2021</strong> after founder <strong className="font-semibold text-ink">Bernard Lim</strong> was prompted to study <em className="italic">Nehemiah 5</em> the moment when rebuilding Jerusalem's walls stalled because of crippling debt and financial injustice.
+                  </p>
+                </div>
+
+                {/* Accordion List */}
+                <div className="border-t border-ink/20">
+                  {[
+                    { title: "Nehemiah 5", text: nehemiahText },
+                    { title: "Profile of Founder", text: founderProfileText }
+                  ].map((item, idx) => {
+                    const isOpen = openAccordion === idx;
+                    return (
+                      <div 
+                        key={`acc-${idx}`}
+                        className="border-b border-ink/20 scroll-mt-28"
+                        id={`accordion-${idx}`}
+                      >
+                        <button 
+                          onClick={() => handleAccordionClick(idx)}
+                          className="flex items-center justify-between w-full py-6 md:py-8 text-left group"
+                        >
+                          <span className="serif-display text-xl md:text-2xl text-ink">{item.title}</span>
+                          <span className={`text-gold text-2xl leading-none transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`}>+</span>
+                        </button>
+                        <div 
+                          className={`grid transition-all duration-300 ease-in-out ${isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
+                        >
+                          <div className="overflow-hidden">
+                            <div className="pb-8 pt-0 text-ink/80 leading-relaxed font-medium space-y-6">
+                              {item.text.split('\n\n').map((paragraph, i) => (
+                                <p key={`p-${i}`}>{paragraph}</p>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
